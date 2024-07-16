@@ -12,8 +12,10 @@ To build on windows, I recomend using either WSL or a virtual machine as you wan
 For mac users I think it shouldn't be so hard given that you can compile grub commandline tools from source, even if the best practice is still to use a linux machine.
 
 1.
-> run `./init.sh`
+> run `git clone https://github.com/saminouche/RoyalOS`
 2.
+> run `./init.sh`
+3.
 > run `./make`
 
 you should be all done, if you're missing a package don't hesitate to open an issue or a pull request to midify init.sh
